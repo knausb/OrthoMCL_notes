@@ -21,7 +21,7 @@ Use apt-get install if not present.
 
 ## MySQL notes
 
-Read the [fun manual](https://dev.mysql.com/doc/refman/5.7/en/)
+Read the [fun manual](https://dev.mysql.com/doc/refman/5.7/en/)!
 
 Start and stop the server.
 
