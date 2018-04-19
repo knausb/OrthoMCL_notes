@@ -50,5 +50,6 @@ Copy `orthomclSoftware/doc/Main/OrthoMCLEngine/orthomcl.config.template` to `my_
 Edit this file as directed in the `UserGuide.txt`.    
 
 
+Run the orthmclInstallSchema program to install the schema. (Run the program with no arguments to get help.  This is true of all following orthomcl programs.)
 
 
