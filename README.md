@@ -47,11 +47,14 @@ OrthoMCL uses a database named `orthomcl` which makes it a good example for the 
 
 Add to your [bash PATH](https://unix.stackexchange.com/q/26047).
 
+    export PATH=~/opt/bin:~/bin/orthomclSoftware-v2.0.9/bin
+
+
 Create `my_orthomcl_dir`.    
 Copy `orthomclSoftware/doc/Main/OrthoMCLEngine/orthomcl.config.template` to `my_orthomcl_dir/orthomcl.config`.    
 Edit this file as directed in the `UserGuide.txt`.    
 
 
-Run the orthmclInstallSchema program to install the schema. (Run the program with no arguments to get help.  This is true of all following orthomcl programs.)
+Run the `orthmclInstallSchema` program to install the schema. (Run the program with no arguments to get help.  This is true of all following orthomcl programs.)
 
 
