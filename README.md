@@ -40,6 +40,8 @@ Common commands.
      EXIT;
      QUIT;
 
+OrthoMCL uses a database named `orthomcl` which makes it a good example for the `CREATE` command.
+
 
 ## Configuration
 
