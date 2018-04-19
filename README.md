@@ -87,3 +87,12 @@ We then filter the genes based on length and percent stop codons.
 
     orthomclFilterFasta compliantFasta/ 10 20
     
+## blastp
+
+First we need to make our blast database.
+
+    ~/bin/ncbi-blast-2.7.1+/bin/makeblastdb -in goodProteins.fasta -dbtype prot
+
+Then perform the search.
+
+    ~/bin/ncbi-blast-2.7.1+/bin/blastp -query goodProteins.fasta -db goodProteins.fasta -outfmt 8 -evalue 1e-5 -out myBlastP.out
