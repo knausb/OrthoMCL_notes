@@ -40,4 +40,8 @@ Common commands.
      QUIT;
 
 
+## Configuration
+
+Create `my_orthomcl_dir`
+
 
