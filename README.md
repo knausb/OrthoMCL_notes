@@ -69,8 +69,17 @@ Install [perl's DBI](https://superuser.com/a/68434) module.
     sudo apt-get install libdbd-mysql-perl
 
 
-
-
 Run the `orthmclInstallSchema` program to install the schema. (Run the program with no arguments to get help.  This is true of all following orthomcl programs.)
+
+
+## FASTA sanitization
+
+We'll need to make our FASTA files OrthoMCL compliant.
+
+    mkdir compliantFasta/
+    cd compliantFasta/
+    orthomclAdjustFasta pinf ../pinf_omcl.fasta 2
+    orthomclAdjustFasta pram ../pram_omcl.fasta 1
+    orthomclAdjustFasta psoj ../psoj_omcl.fasta 1
 
 
