@@ -48,6 +48,7 @@ Determine MySQL [port number](https://stackoverflow.com/a/18353323).
 
 The default is 3306 and is known to most of the internet, which is a security issue.
 [This can be changed](https://www.quora.com/How-do-I-configure-MySQL-to-listen-on-a-port-other-than-port-3306) by editing `my.cnf` (for me it was `/etc/mysql/my.cnf`) to change the `port` parameter.
+Then stop and sart your mysql server.
 
 ## Configuration
 
