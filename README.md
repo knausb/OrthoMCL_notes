@@ -45,9 +45,9 @@ OrthoMCL uses a database named `orthomcl` which makes it a good example for the 
 
 ## Configuration
 
-Add to your [bash PATH](https://unix.stackexchange.com/q/26047).
+Add to your [bash PATH](https://unix.stackexchange.com/a/26059).
 
-    export PATH=~/opt/bin:~/bin/orthomclSoftware-v2.0.9/bin
+    export PATH=~/bin/orthomclSoftware-v2.0.9/bin:$PATH
 
 
 Create `my_orthomcl_dir`.    
