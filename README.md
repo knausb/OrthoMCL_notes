@@ -33,6 +33,7 @@ Common commands.
 
      mysql --user=root --password=the_mysql_root_password
      SHOW DATABASES;
+     CREATE DATABASE orthomcl;
      SHOW TABLES FROM music;
      USE music;
      SHOW TABLES;
@@ -42,8 +43,12 @@ Common commands.
 
 ## Configuration
 
-Create `my_orthomcl_dir`
-
 Add to your [bash PATH](https://unix.stackexchange.com/q/26047).
+
+Create `my_orthomcl_dir`.    
+Copy `orthomclSoftware/doc/Main/OrthoMCLEngine/orthomcl.config.template` to `my_orthomcl_dir/orthomcl.config`.    
+Edit this file as directed in the `UserGuide.txt`.    
+
+
 
 
