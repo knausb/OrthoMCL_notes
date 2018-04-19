@@ -29,7 +29,7 @@ Start and stop the server.
     $ sudo service mysql start
     $ sudo service mysql stop
 
-Common commands
+Common commands.
 
      mysql --user=root --password=the_mysql_root_password
      SHOW DATABASES;
