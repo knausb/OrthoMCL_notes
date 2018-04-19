@@ -42,6 +42,12 @@ Common commands.
 
 OrthoMCL uses a database named `orthomcl` which makes it a good example for the `CREATE` command.
 
+Determine MySQL [port number](https://stackoverflow.com/a/18353323).
+
+    SHOW VARIABLES WHERE Variable_name = 'port';
+
+The default is 3306 and is known to most of the internet, which is a security issue.
+[This can be changed](https://www.quora.com/How-do-I-configure-MySQL-to-listen-on-a-port-other-than-port-3306) by editing `my.cnf` (for me it was `/etc/mysql/my.cnf`) to change the `port` parameter.
 
 ## Configuration
 
@@ -59,6 +65,7 @@ Edit this file as directed in the `UserGuide.txt`.
 Install [perl's DBI](https://superuser.com/a/68434) module.
 
     sudo apt-get install libdbi-perl
+    sudo apt-get install libdbd-mysql-perl
 
 
 
