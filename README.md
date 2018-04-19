@@ -44,4 +44,6 @@ Common commands.
 
 Create `my_orthomcl_dir`
 
+Add to your [bash PATH](https://unix.stackexchange.com/q/26047).
+
 
