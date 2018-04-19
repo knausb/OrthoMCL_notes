@@ -81,5 +81,9 @@ We'll need to make our FASTA files OrthoMCL compliant.
     orthomclAdjustFasta pinf ../pinf_omcl.fasta 2
     orthomclAdjustFasta pram ../pram_omcl.fasta 1
     orthomclAdjustFasta psoj ../psoj_omcl.fasta 1
+    cd ..
 
+We then filter the genes based on length and percent stop codons.
 
+    orthomclFilterFasta compliantFasta/ 10 20
+    
