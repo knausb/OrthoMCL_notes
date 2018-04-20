@@ -101,10 +101,7 @@ This should be a tab delimited file containing the following columns (m 8):
   query_name, hitname, pcid, len, mismatches, ngaps, start('query'), 
   end('query'), start('hit'), end('hit'), evalue, bits
 
-
-
-
-    ~/bin/ncbi-blast-2.7.1+/bin/blastp -query goodProteins.fasta -db goodProteins.fasta -outfmt 6 qseqid sseqid pident length mismatch gaps qstart qend sstart send evalue bitscore -evalue 1e-5 -out myBlastP.out
+    ~/bin/ncbi-blast-2.7.1+/bin/blastp -query goodProteins.fasta -db goodProteins.fasta -outfmt 6 -evalue 1e-5 -out myBlastP.out
 
 
 
