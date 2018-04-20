@@ -100,11 +100,10 @@ Instead, we've used `-outfmt 6`.
 This should be a tab delimited file containing the following columns: `query_id, subject_id, query_taxon, subject_taxon, evalue_mant, evalue_exp, percent_ident, percent_match`.
 
 
-    ~/bin/ncbi-blast-2.7.1+/bin/blastp -query goodProteins.fasta -db goodProteins.fasta -outfmt 6 qseqid sseqid  -evalue 1e-5 -out myBlastP.out
+    ~/bin/ncbi-blast-2.7.1+/bin/blastp -query goodProteins.fasta -db goodProteins.fasta -outfmt 6 qseqid sseqid pident length mismatch gaps sstart send evalue bitscore -evalue 1e-5 -out myBlastP.out
 
 
- query_id, subject_id, query_taxon, subject_taxon,
-     evalue_mant, evalue_exp, percent_ident, percent_match
+
 
 
 
