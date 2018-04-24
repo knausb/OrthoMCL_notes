@@ -103,9 +103,29 @@ This should be a tab delimited file containing the following columns (m 8):
 
     ~/bin/ncbi-blast-2.7.1+/bin/blastp -query goodProteins.fasta -db goodProteins.fasta -outfmt 6 -evalue 1e-5 -out myBlastP.out
 
+## orthomclBlastParser
 
 
+    mkdir my_orthomcl_dir
+    orthomclBlastParser myBlastP.out compliantFasta/ >> my_orthomcl_dir/similarSequences.txt
 
+
+## orthomclLoadBlast
+
+
+   orthomclLoadBlast config_file my_orthomcl_dir/similarSequences.txt
+
+
+Where `config_file` is as follows 
+
+```
+dbVendor=mysql
+dbConnectString=dbi:mysql:orthomcl
+dbLogin=root
+dbPassword=myPassword
+similarSequencesTable=SimilarSequences
+
+```
 
 
 
