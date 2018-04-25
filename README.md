@@ -127,6 +127,44 @@ similarSequencesTable=SimilarSequences
 
 ```
 
+## orthomclPairs
+
+    orthomclPairs config_file2 pairslog cleanup=no
+
+Where config_file2 appears below.
+
+```
+dbVendor=mysql
+dbConnectString=dbi:mysql:orthomcl
+dbLogin=root
+dbPassword=my_db_password
+similarSequencesTable=SimilarSequences
+orthologTable=Ortholog
+inParalogTable=InParalog
+coOrthologTable=CoOrtholog
+interTaxonMatchView=InterTaxonMatch
+percentMatchCutoff=50
+evalueExponentCutoff=-5
+```
+
+## orthomclDumpPairsFiles
+
+Here we can reuse the config file from orthomclPairs.
+
+    orthomclDumpPairsFiles config_file2
+
+This should create a directory called `pairs/`.
 
 
+## mcl
 
+
+    mcl mclInput --abc -I 1.5 -o my_orthomcl_dir/mclOutput
+
+## orthomclMclToGroups
+
+
+    orthomclMclToGroups my_prefix 1000 < mclOutput > groups.txt
+
+
+You're finished!
