@@ -1,7 +1,7 @@
 # OrthoMCL_notes
 
 Notes on how to use [OrthoMCL](http://orthomcl.org/orthomcl/).
-
+These notes were generated while following the [UserGuide](http://orthomcl.org/common/downloads/software/v2.0/UserGuide.txt).
 
 ## Installation
 
