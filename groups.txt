@@ -1,0 +1,35 @@
+my_prefix1000: pinf|PITG_00798 pinf|PITG_18984 pinf|PITG_19792 pinf|PITG_01460 pinf|PITG_13965 pinf|PITG_17371 pinf|PITG_18152 psoj|134074 psoj|130013
+my_prefix1001: pram|72194 pram|84137 pinf|PITG_00719 pinf|PITG_00720 pinf|PITG_00721 psoj|108923 psoj|109050 psoj|109049
+my_prefix1002: pram|85143 pram|85765 pram|87276 pram|85144 pram|85766 pinf|PITG_01926 pinf|PITG_01932 psoj|137121
+my_prefix1003: pram|81635 pram|84379 psoj|138537 pinf|PITG_10563
+my_prefix1004: pram|74396 pram|86327 psoj|133864 pinf|PITG_09644
+my_prefix1005: pram|85762 pram|87205 psoj|138509 pinf|PITG_10602
+my_prefix1006: pinf|PITG_09522 pinf|PITG_09630 pram|75827 psoj|141839
+my_prefix1007: pinf|PITG_09523 pinf|PITG_09629 pram|75828 psoj|135357
+my_prefix1008: pinf|PITG_09545 pinf|PITG_20980 pram|75843 psoj|141425
+my_prefix1009: pinf|PITG_09547 pinf|PITG_09550 pinf|PITG_09553 pram|75847
+my_prefix1010: pinf|PITG_09613 pinf|PITG_09655 pram|75812 psoj|135328
+my_prefix1011: pinf|PITG_10517 pinf|PITG_22505 pram|84406 psoj|144436
+my_prefix1012: pinf|PITG_10588 pinf|PITG_18890 pinf|PITG_14030 pram|82637
+my_prefix1013: psoj|143438 psoj|143445 pram|75245 pinf|PITG_09478
+my_prefix1014: pram|75793 psoj|135305 pinf|PITG_09565 psoj|141410
+my_prefix1015: pram|74340 pram|87509 pinf|PITG_09573
+my_prefix1016: pinf|PITG_09524 pinf|PITG_09628 pram|75829
+my_prefix1017: pinf|PITG_09526 pinf|PITG_09626 psoj|108876
+my_prefix1018: pinf|PITG_09578 pinf|PITG_09636 psoj|108875
+my_prefix1019: pinf|PITG_09582 pinf|PITG_09640 psoj|108874
+my_prefix1020: pinf|PITG_09610 pinf|PITG_09653 psoj|135325
+my_prefix1021: pinf|PITG_09611 pinf|PITG_09654 pram|75810
+my_prefix1022: pram|75840 psoj|141453 pinf|PITG_09531
+my_prefix1023: pinf|PITG_10617 psoj|141784 pram|86490
+my_prefix1024: pinf|PITG_09525 pinf|PITG_09627
+my_prefix1025: pinf|PITG_09605 pinf|PITG_09648
+my_prefix1026: pinf|PITG_09609 pinf|PITG_09652
+my_prefix1027: pinf|PITG_10542 pinf|PITG_21363
+my_prefix1028: pram|79772 psoj|129053
+my_prefix1029: pinf|PITG_01930 psoj|137119
+my_prefix1030: pinf|PITG_09566 pram|85423
+my_prefix1031: pinf|PITG_10484 pram|52267
+my_prefix1032: pinf|PITG_10488 pram|84415
+my_prefix1033: pinf|PITG_10601 psoj|109146
+my_prefix1034: pinf|PITG_11695 psoj|135282
